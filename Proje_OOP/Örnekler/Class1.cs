@@ -2,12 +2,21 @@
 
 namespace Proje_OOP.Örnekler
 {
-    // Sınıfın içindeki öğelere erişim sağlamak için sınftan bir nesne türetiilir.
-    // SınıfAdı nesneAdı = new SınıfAdı();
     public class Class1
     {
-        Product product = new Product();
+       public void Topla()
+        {
+            int sayi1 = 10;
+            int sayi2 = 20;
+            int sonuc = sayi1 + sayi2;
+        }
+
+        public void Çarp()
+        {
+            int s1 = 10;
+            int s2 = 20;
+            int sonuc= s1 * s2;
+        }
     }
 }
-// ProductClass -->Sınıf class
-// productClass --> Nesne object
+
